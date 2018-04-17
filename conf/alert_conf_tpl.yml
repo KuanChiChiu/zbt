@@ -1,0 +1,377 @@
+SolarDoc:
+  - field: DC1DCA
+    enable: true
+    title: MPPT1直流電流(A)
+    error:
+      upper: 50
+      lower: 0.1
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+    warn:
+      upper: 40
+      lower: 0.2
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+  - field: DC1DCV
+    enable: true
+    title: MPPT1直流電壓(V)
+    error:
+      upper: 950
+      lower: 5
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+    warn:
+      upper: 850
+      lower: 10
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+  - field: DC1DCP
+    enable: true
+    title: MPPT1直流功率(W)
+    error:
+      upper: 20000
+      lower: 0
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+    warn:
+      upper: 19000
+      lower: 0
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+  - field: DC2DCA
+    enable: true
+    title: MPPT2直流電流(A)
+    error:
+      upper: 50
+      lower: 0.1
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+    warn:
+      upper: 40
+      lower: 0.2
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+  - field: DC2DCV
+    enable: true
+    title: MPPT2直流電壓(V)
+    error:
+      upper: 950
+      lower: 5
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+    warn:
+      upper: 850
+      lower: 10
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+  - field: DC2DCP
+    enable: true
+    title: MPPT2直流功率(W)
+    error:
+      upper: 20000
+      lower: 0
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+    warn:
+      upper: 19000
+      lower: 0
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+  - field: L1ACA
+    enable: true
+    title: L1端交流電流(A)
+    error:
+      upper: 60
+      lower: 0.1
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+    warn:
+      upper: 55
+      lower: 0.2
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+  - field: L1ACV
+    enable: true
+    title: L1端交流電壓(V)
+    error:
+      upper: 350
+      lower: 5
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+    warn:
+      upper: 300
+      lower: 10
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+  - field: L1ACP
+    enable: true
+    title: L1端交流功率(W)
+    error:
+      upper: 20000
+      lower: 0
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+    warn:
+      upper: 19000
+      lower: 0
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+  - field: L2ACA
+    enable: true
+    title: L2端交流電流(A)
+    error:
+      upper: 60
+      lower: 0.1
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+    warn:
+      upper: 55
+      lower: 0.2
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+  - field: L2ACV
+    enable: true
+    title: L2端交流電壓(V)
+    error:
+      upper: 350
+      lower: 5
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+    warn:
+      upper: 300
+      lower: 10
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+  - field: L2ACP
+    enable: true
+    title: L2端交流功率(W)
+    error:
+      upper: 20000
+      lower: 0
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+    warn:
+      upper: 19000
+      lower: 0
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+  - field: L3ACA
+    enable: true
+    title: L3端交流電流(A)
+    error:
+      upper: 60
+      lower: 0.1
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+    warn:
+      upper: 55
+      lower: 0.2
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+  - field: L3ACV
+    enable: true
+    title: L3端交流電壓(V)
+    error:
+      upper: 350
+      lower: 5
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+    warn:
+      upper: 300
+      lower: 10
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+  - field: L3ACP
+    enable: true
+    title: L3端交流功率(W)
+    error:
+      upper: 20000
+      lower: 0
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+    warn:
+      upper: 19000
+      lower: 0
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+  - field: L1ACFreq
+    enable: true
+    title: L1端交流頻率(Hz)
+    error:
+      upper: 100
+      lower: 5
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+    warn:
+      upper: 80
+      lower: 10
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+  - field: L2ACFreq
+    enable: true
+    title: L2端交流頻率(Hz)
+    error:
+      upper: 100
+      lower: 5
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+    warn:
+      upper: 80
+      lower: 10
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+  - field: L3ACFreq
+    enable: true
+    title: L3端交流頻率(Hz)
+    error:
+      upper: 100
+      lower: 5
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+    warn:
+      upper: 80
+      lower: 10
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f    
+  - field: ACPDaily
+    enable: true
+    title: 今日累積發電量(kWh)
+    error:
+      upper: 2000
+      lower: 10
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+    warn:
+      upper: 1800
+      lower: 50
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+  - field: InvTemp
+    enable: true
+    title: Inv機台溫度(℃)
+    error:
+      upper: 90
+      lower: 10
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+    warn:
+      upper: 80
+      lower: 20
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+  - field: AvgPVTemp
+    enable: true
+    title: 模組溫度(℃)
+    error:
+      upper: 90
+      lower: 10
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+    warn:
+      upper: 80
+      lower: 20
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+  - field: AvgIrr
+    enable: true
+    title: 目前日射量(W/m2)
+    error:
+      upper: 1500
+      lower: -0.1
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+    warn:
+      upper: 1200
+      lower: 0
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+  - field: InvEff
+    enable: false
+    title: Inv轉換效率(%)
+    error:
+      upper: 130
+      lower: 60
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+    warn:
+      upper: 120
+      lower: 70
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+  - field: RA
+    enable: false
+    title: RA值(%)
+    error:
+      upper: 130
+      lower: 60
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+    warn:
+      upper: 120
+      lower: 70
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+  - field: PR
+    enable: false
+    title: PR值(%)
+    error:
+      upper: 130
+      lower: 50
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+    warn:
+      upper: 120
+      lower: 40
+      minute: 30
+      times: 2
+      messagetpl: The %s value is %.2f is %s then %.2f
+  

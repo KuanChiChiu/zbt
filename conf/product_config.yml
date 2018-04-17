@@ -1,0 +1,45 @@
+mongodb:
+    host: dforcepro-db
+    port: 27017
+    user: peter
+    pass: 111111
+
+sql:
+    host: dforcepro-db
+    port: 3306
+    user: dforcepro
+    pass: 1234
+
+elastic:
+    host: dforcepro-db
+    port: 9200
+
+redis:
+    host: redis-service:6379
+    pass: ""
+    db: 0
+
+log:
+    path: /var/log
+    duration: hour   # day - hour - minute
+    debug: true      # false(關閉) | true(開啟)
+
+api:
+    port: 9080
+    middle:
+        auth: true
+        gen_doc: false
+        log: false
+        debug: false
+
+
+rabbitmq:
+    broker: 'amqp://rd:1234@rabbitmq-service:5672/'
+    default_queue: zbt_tasks
+    result_backend: 'redis://redis-service:6379'
+    results_expire_in: 3600
+    amqp:
+        binding_key: zbt_tasks
+        exchange: machinery_exchange
+        exchange_type: direct
+        prefetch_count: 3
